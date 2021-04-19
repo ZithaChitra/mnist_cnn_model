@@ -1,0 +1,21 @@
+dataset:
+  dataset_args:
+    img_height: 28
+    img_width: 28
+  name: Mnist
+model: Model
+network:
+  io_shapes:
+    input_shape: null
+    output_shape: null
+  name: nn_conv1
+  net_args:
+    decay: 1.0e-06
+    dropout: 0.2
+    epochs: 20
+    hidden_layer_size: 128
+    layer_1_size: 16
+    layer_2_size: 32
+    learn_rate: 0.01
+    momentum: 0.9
+project_name: cnn_mnist
